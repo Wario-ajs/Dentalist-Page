@@ -111,3 +111,108 @@
     padding-bottom: 0.5em;
     line-height: 200%;
 }
+
+/*======Services======*/
+
+.services {
+    padding: 3em 5em;
+}
+
+.services__title {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--roxo);
+    padding: 2em 0;
+}
+
+.services__subtitle--wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 7em;
+}
+
+.services__subtitle {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.services__description {
+    font-size: 16px;
+    line-height: 156%;
+    padding-right: 3em;
+}
+
+.services__list {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.services__list--item {
+    text-align: center;
+    border-radius: 35px;
+    border: 1px solid #DBDEFA;
+    padding: 1em;
+    margin-bottom: 6em;
+    cursor: pointer;
+}
+
+.services__list--item:hover {
+    border: none;
+    box-shadow: 0px 64px 96px rgba(24, 25, 69, 0.05);
+}
+
+.list__img--container {
+    padding: 4.5em 3em;
+    border-radius: 35px;
+}
+
+.dentures {
+    background-color: var(--azul-claro);
+}
+
+.implants {
+    background-color: var(--roxo-secundario);
+}
+
+.whitening {
+    background-color: var(--lilas);
+}
+
+.rootcanal {
+    background-color: var(--rosa);
+}
+
+.list__item--title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1.5em 1em 1em 1em;
+}
+
+.list__item--description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 162%;
+    padding-bottom: 1em; 
+    margin: 0 0.5em 0.5em 0.5em;
+}
+
+.services__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    padding: 1em;
+    margin: 1em 35em;
+    border-radius: 12px;
+    background-color: rgb(88, 63, 188, 0.1);
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--roxo);
+    text-decoration: none;
+}
+
+.services__button:hover {
+    text-decoration: underline;
+}
