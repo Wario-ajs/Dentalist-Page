@@ -2,10 +2,19 @@
 
 :root {
     --fonte-principal: 'inter';
-    --branco: #E4E6F1;
+    --fonte-color: #181945;
+    --branco: #FFF;
     --roxo: #583FBC;
     --roxo-secundario: #DBDEFA;
     --azul-claro: #D9EBFA;
     --lilas: #F6DBFA;
-    -rosa: #FADBE2;
+    --rosa: #FADBE2;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--fonte-color);
+    background-color: var(--branco);
 }

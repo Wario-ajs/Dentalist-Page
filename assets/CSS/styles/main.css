@@ -1,0 +1,37 @@
+/*======header=====*/
+
+.cabecalho {
+    display: flex;
+    padding: 3em 5em;
+    gap: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navbar__lista {
+    display: flex;
+    gap: 3.5em;
+}
+
+.navbar__lista-link {
+    font-weight: 700;
+    color: var(--fonte-color);
+    text-decoration: none;
+}
+
+.navbar__lista-link:hover {
+    text-decoration: underline;
+}
+
+.cabecalho__button {
+    font-weight: 400;
+    color: var(--branco);
+    text-decoration: none;
+    padding: 1.2em;
+    border-radius: 12px;
+    background-color: var(--roxo);
+}
