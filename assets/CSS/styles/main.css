@@ -1,6 +1,6 @@
-/*======header=====*/
+/*======header======*/
 
-.cabecalho {
+.header {
     display: flex;
     padding: 3em 5em;
     gap: 1em;
@@ -12,26 +12,90 @@
     cursor: pointer;
 }
 
-.navbar__lista {
+.navbar__list {
     display: flex;
     gap: 3.5em;
 }
 
-.navbar__lista-link {
+.navbar__list-link {
     font-weight: 700;
     color: var(--fonte-color);
     text-decoration: none;
 }
 
-.navbar__lista-link:hover {
+.navbar__list-link:hover {
     text-decoration: underline;
 }
 
-.cabecalho__button {
+.header__button {
     font-weight: 400;
     color: var(--branco);
     text-decoration: none;
     padding: 1.2em;
     border-radius: 12px;
     background-color: var(--roxo);
+}
+
+/*======main banner======*/
+
+.banner {
+    padding: 0 2em 2em 2em;
+}
+
+.banner__img-wrap {
+    background-image: url(/assets/Img/home/banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 10em;
+}
+
+.banner__title {
+    font-size: 64px;
+    font-weight: 700;
+    padding: 2.5em 1em 0 1.5em;
+}
+
+.banner__description {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 2.7em 0 5em 5.6em;
+}
+
+.banner__contact {
+    display: flex;
+    align-items: center;
+    padding: 0 7em;
+}
+
+.banner__button {
+    color: var(--branco);
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 1.4em;
+    background-color: var(--roxo);
+    border-radius: 16px;
+}
+
+.banner__button:hover {
+    padding: 1.5em;
+    font-size: 15px;
+}
+
+.banner__contact-img {
+    padding-left: 3.5em;
+    padding-right: 1em;
+    cursor: pointer;
+}
+
+.banner__contact--desc {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--roxo);
+    padding-bottom: 0.8em;
+}
+
+.banner__contact--number {
+    font-size: 15px;
+    font-weight: 700;
 }
