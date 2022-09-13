@@ -99,3 +99,15 @@
     font-size: 15px;
     font-weight: 700;
 }
+
+.banner__sub {
+    text-align: center;
+}
+
+.banner__subtitle {
+    font-size: 36px;
+    font-weight: 500;
+    padding-top: 3em;
+    padding-bottom: 0.5em;
+    line-height: 200%;
+}
