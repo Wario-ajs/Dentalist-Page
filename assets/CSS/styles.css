@@ -1,0 +1,11 @@
+@import url("../CSS/styles/main.css");
+
+:root {
+    --fonte-principal: 'inter';
+    --branco: #E4E6F1;
+    --roxo: #583FBC;
+    --roxo-secundario: #DBDEFA;
+    --azul-claro: #D9EBFA;
+    --lilas: #F6DBFA;
+    -rosa: #FADBE2;
+}
