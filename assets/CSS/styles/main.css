@@ -336,3 +336,44 @@
     font-weight: 400;
     line-height: 20px;
 }
+
+/*======Experts======*/
+
+.experts {
+    display: flex;
+    justify-content: space-between;
+    padding: 5.5em;
+    margin: 1em 0;
+}
+
+.experts__subtitle {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 0.5em;
+}
+
+.experts__description {
+    font-size: 18px;
+    line-height: 156%;
+    font-weight: 500;
+    padding-bottom: 2em;
+    color: var(--fonte-color-secundaria);
+}
+
+.experts__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+}
+
+.experts__list--item {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.experts__list--text {
+    font-size: 18px;
+    font-weight: 500;
+}
