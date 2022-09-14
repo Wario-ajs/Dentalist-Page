@@ -223,7 +223,7 @@
 .dental24h {
     display: flex;
     padding: 5.5em;
-    margin-top: 4em;
+    margin: 4em 0;
 }
 
 .dental24__img--container {
@@ -234,19 +234,33 @@
     padding: 4.5em 4em;
 }
 
+.dental24__container {
+    padding-top: 2.7em;
+    padding-left: 3em;
+}
+
 .dental24h__subtitle {
     font-size: 48px;
     font-weight: 700;
     line-height: 50px;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.7em;
 }
 
-.dental24h__descripition {
+.dental24h__description {
     font-size: 16px;
     line-height: 156%;
-    padding-bottom: 2em;
+    padding-bottom: 6em;
+    font-weight: 500;
 }
 
 .dental24h__button {
-    
+    margin-top: 2em;
+    color: var(--branco);
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 1.3em;
+    background-color: var(--roxo);
+    border-radius: 16px;
 }
+
