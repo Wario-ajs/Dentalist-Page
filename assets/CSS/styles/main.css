@@ -279,7 +279,7 @@
 .features__container {
     background-color: var(--roxo-secundario);
     padding: 2.7em 1em 4.7em 1em;
-    border-radius: 48px;
+    border-radius: 54px;
 }
 
 .features__container--title {
@@ -389,4 +389,81 @@
     background-position: right;
     background-size: contain;
     padding: 4.5em 4em;
+}
+
+/*======main banner======*/
+
+.testimonial {
+    padding: 2em;
+}
+
+.testimonial__container {
+    background-color: var(--azul-claro);
+    border-radius: 54px;
+    padding: 5em 2em 9em 2em;
+}
+
+.testimonial__top {
+    padding: 1em 1em 5em 1em;
+}
+
+.testimonial__subtitle--container {
+    display: flex;
+    justify-content: center;
+    gap: 15em;
+}
+
+.testimonial__title {
+    padding-left: 6.3em;
+}
+
+.testimonial__subtitle {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.testimonial__description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    padding-top: 1.5em;
+}
+
+.testimonial__list {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.testimonial__item {
+    text-align: center;
+    padding: 3.5em 3em 3.5em 3em;
+    background-image: url("/assets/Img/home/card.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    cursor: pointer;
+}
+
+.testimonial__perfil {
+    border: 8px solid var(--azul-claro);
+    border-radius: 63px;
+}
+
+.testimonial__card {
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+.testimonial__card--title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.testimonial__text {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--fonte-color-secundaria);
+    line-height: 130%;
+    padding: 1.7em 0 2.1em 0;
 }
