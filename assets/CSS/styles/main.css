@@ -394,7 +394,7 @@
 /*======main banner======*/
 
 .testimonial {
-    padding: 2em;
+    padding: 4em 2em;
 }
 
 .testimonial__container {
@@ -464,6 +464,7 @@
     font-size: 15px;
     font-weight: 500;
     color: var(--fonte-color-secundaria);
-    line-height: 130%;
+    line-height: 135%;
     padding: 1.7em 0 2.1em 0;
 }
+
