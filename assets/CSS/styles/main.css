@@ -227,6 +227,7 @@
 
 .dental24h {
     display: flex;
+    justify-content: center;
     padding: 5.5em;
     margin: 4em 0;
 }
@@ -341,30 +342,34 @@
 
 .experts {
     display: flex;
-    justify-content: space-between;
-    padding: 5.5em;
+    justify-content: center;
+    padding: 6em;
     margin: 1em 0;
+}
+
+.experts__container {
+    padding-top: 3em;
 }
 
 .experts__subtitle {
     font-size: 48px;
     font-weight: 700;
     line-height: 50px;
-    padding-bottom: 0.5em;
 }
 
 .experts__description {
     font-size: 18px;
     line-height: 156%;
     font-weight: 500;
-    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 2.3em;
     color: var(--fonte-color-secundaria);
 }
 
 .experts__list {
     display: flex;
     flex-direction: column;
-    gap: 1.3em;
+    gap: 1.6em;
 }
 
 .experts__list--item {
@@ -376,4 +381,12 @@
 .experts__list--text {
     font-size: 18px;
     font-weight: 500;
+}
+
+.experts__img--container {
+    background-image: url("/assets/Img/home/Rectangle 13.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding: 4.5em 4em;
 }
