@@ -438,7 +438,7 @@
 
 .testimonial__item {
     text-align: center;
-    padding: 3.5em 3em 3.5em 3em;
+    padding: 3.5em 4.5em 3.5em 4.5em;
     background-image: url("/assets/Img/home/card.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -456,15 +456,114 @@
 }
 
 .testimonial__card--title {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 700;
 }
 
 .testimonial__text {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     color: var(--fonte-color-secundaria);
     line-height: 135%;
     padding: 1.7em 0 2.1em 0;
 }
 
+/*======Blog======*/
+
+.blog {
+    margin: 3rem 0;
+    padding: 2em;
+}
+
+.blog__title--container {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.blog__subtitle {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px
+}
+
+.blog__list {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.blog__list--item {
+    padding: 0.9rem 0.9rem 2.3rem 0.9rem;
+    border: 1px solid #DBDEFA;
+    border-radius: 40px;
+}
+
+.blog__list--item:hover {
+    border: none;
+    box-shadow: 0px 62px 94px rgba(24, 25, 69, 0.05);
+}
+
+.blog__news--date {
+    padding: 0.7rem 0.9rem;
+    border: 1px solid #DBDEFA;
+    border-radius: 17px;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--branco);
+}
+
+.blog__news--date-day {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 0.2rem;
+}
+
+.blog__news--wrap {
+    border-radius: 24px;
+    padding: 0.7rem 17rem 11rem 0.5rem;
+    cursor: pointer;
+}
+
+.news1 {
+    background-image: url("/assets/Img/home/news1.png");
+    background-repeat: no-repeat;
+    background-image: cover;
+}
+
+.news2 {
+    background-image: url("/assets/Img/home/news2.png");
+    background-repeat: no-repeat;
+    background-image: cover;
+}
+
+.news3 {
+    background-image: url("/assets/Img/home/news3.png");
+    background-repeat: no-repeat;
+    background-image: cover;
+}
+
+.blog__news--title {
+    padding-bottom: 0;
+}
+
+.blog__news--subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    line-height: 125%;
+    cursor: pointer;
+}
+
+.blog__news--description {
+    font-size: 13.5px;
+    font-weight: 500;
+    color: var(--fonte-color-secundaria);
+    line-height: 160%;
+}
+
+.blog__news--description,
+.blog__news--subtitle,
+.blog__news--title {
+    margin-left: 0.5rem;
+}
