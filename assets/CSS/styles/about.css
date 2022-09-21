@@ -1,0 +1,28 @@
+.aboutUs {
+    padding: 3rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutUs__title {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.aboutUs__description {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    color: var(--fonte-color-secundaria);
+    margin: 2.7rem 0 8rem 0;
+}
+
+.aboutUs__button {
+    padding: 1.3rem 5rem;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    background-color: var(--roxo);
+    border-radius: 18px;
+}
