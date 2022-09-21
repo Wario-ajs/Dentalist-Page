@@ -26,3 +26,38 @@
     background-color: var(--roxo);
     border-radius: 18px;
 }
+
+/*======Priority======*/
+
+.priority {
+    padding: 7rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priority__container {
+    margin-right: 5.5em;
+}
+
+.priority__title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.priority__description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    color: var(--fonte-color-secundaria);
+    margin: 2.7rem 0 6rem 0;
+}
+
+.priority__button {
+    padding: 1.3rem 2.8rem;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    background-color: var(--roxo);
+    border-radius: 18px;
+}

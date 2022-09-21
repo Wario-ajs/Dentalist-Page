@@ -97,10 +97,6 @@ body {
     cursor: pointer;
 }
 
-.footer__links--list {
-
-}
-
 .footer__list-title {
     font-size: 14px;
     color: var(--footer-font-color);
