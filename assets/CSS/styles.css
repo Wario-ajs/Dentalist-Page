@@ -117,6 +117,10 @@ body {
     text-decoration: none;
 }
 
+.footer__list--link:hover {
+    text-decoration: underline;
+}
+
 .footer__contact--item {
     display: flex;
     align-items: center;
@@ -158,4 +162,8 @@ body {
 .footer__link {
     color: var(--branco);
     text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
 }
