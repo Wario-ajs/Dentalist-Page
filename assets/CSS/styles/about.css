@@ -61,3 +61,43 @@
     background-color: var(--roxo);
     border-radius: 18px;
 }
+
+/*======Safety======*/
+
+.safety {
+    padding: 0 4rem;
+    margin: 3rem 0;
+}
+
+.safety__container {
+    text-align: center;
+    background-image: url("/assets/Img/about/Rectangle\ 13.png");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 4rem;
+}
+
+.safety__title {
+    padding-top: 9rem;
+}
+
+.safety__subtitle {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 2.2rem;
+    margin-top: 0.5rem;
+}
+
+.safety__description{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 4.7rem;
+
+}
+
+.safety__video {
+    border-radius: 32px;
+    cursor: pointer;
+}
