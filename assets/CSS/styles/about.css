@@ -165,7 +165,7 @@
 /*======FAQ======*/
 
 .faq {
-    margin: 3rem 15rem;
+    margin: 12rem 17rem;
     display: flex;
     flex-direction: column;
 }
@@ -216,6 +216,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    cursor: pointer;
 }
 
 .faq__button--close {
