@@ -1,0 +1,37 @@
+/*======root banner======*/
+
+.rootCanal {
+    margin: 0 2rem 2rem 2rem;
+}
+
+.rootcanal__container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url("/assets/Img/Services/service-banner.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+.rootcanal___article {
+    justify-self: center;
+    margin-top: 20%;
+}
+
+.rootcanal__article--title {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.rootcanal__article--description {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(24, 25, 69, 0.60);
+    line-height: 140%;
+    margin-top: 1.8rem;
+    margin-bottom: 7rem;
+}
+
+.rootcanal__img {
+    padding: 5rem 1rem 1rem 1rem;
+}

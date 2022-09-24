@@ -1,5 +1,6 @@
 @import url("../CSS/styles/main.css");
 @import url("../CSS/styles/about.css");
+@import url("../CSS/styles/services.css");
 
 :root {
     --fonte-principal: 'inter';
