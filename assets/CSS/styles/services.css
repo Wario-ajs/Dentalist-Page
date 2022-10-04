@@ -115,10 +115,10 @@
     line-height: 140%;
 }
 
-/*======Symptoms======*/
+/*======Gallery======*/
 
 .gallery {
-    margin: 3rem 5.2rem;
+    margin: 4rem 5.2rem;
     display: grid;
     grid-template-columns: 38% 62%;
     grid-template-rows: auto auto auto;
@@ -142,7 +142,7 @@
     grid-row: 2;
     align-self: center;
     color: var(--fonte-color-secundaria);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 135%;
     padding-left: 15rem;

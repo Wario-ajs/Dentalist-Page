@@ -14,24 +14,24 @@
 </head>
 <body>
     <header class="header">
-        <a href="/index.html" class="header__logo--link"><img src="/assets/Img/home/Logo.svg" alt="Logo" class="logo"></a>
+        <a href="/index.html" class="header__logo--link"><img src="../Img/home/Logo.svg" alt="Logo" class="logo"></a>
         <nav class="navbar">
             <ul class="navbar__list">
                 <li class="navbar__list-item">
-                    <a href="/assets/pages/about.html" class="navbar__list-link">About Us</a>
+                    <a href="../pages/about.html" class="navbar__list-link">About Us</a>
                 </li>
                 <li class="navbar__list-item">
-                    <a href="/assets/pages/contact.html" class="navbar__list-link">New Patient</a>
+                    <a href="../pages/patient.html" class="navbar__list-link">New Patient</a>
                 </li>
                 <li class="navbar__list-item">
-                    <a href="/assets/pages/patient.html" class="navbar__list-link">Our Services</a>
+                    <a href="../pages/services.html" class="navbar__list-link">Our Services</a>
                 </li>
                 <li class="navbar__list-item">
-                    <a href="/assets/pages/services.html" class="navbar__list-link">Contact Us</a>
+                    <a href="../pages/contact.html" class="navbar__list-link">Contact Us</a>
                 </li>
             </ul>
         </nav>
-        <a href="#" class="header__button">Book appointment</a>
+        <a href="../pages/contact.html" class="header__button">Book appointment</a>
     </header>
 
     <main>
@@ -101,30 +101,92 @@
                 </div>
             </div>
         </section>
+        <section class="appointment">
+            <div class="appointment__address">
+                <address class="appointment__address--box">
+                    <img src="../Img/home/home-icon.png" alt="Icone do endereço" class="apointment__adress--home">
+                    <p class="appointment__adress--text">35 West Dental Street California
+                        <br>1004</p>
+                </address>
+            </div>
+            <div id="appointment" class="appointment__container">
+                <div class="appointment__container--title">
+                    <h2 class="section__title appointment__title">BOOK APPOINTMENT</h2>
+                    <h3 class="appointment__subtitle">Care at Dentalist is pleasure</h3>
+                    <p class="appointment__description">Lorem ipsum is placeholder text commonly used in the graphic, print, and
+                        <br>publishing industries for previewing layouts and visual</p>
+                </div>
+                <form action="" class="appointment__container__form">
+                    <div class="appointment__container--line1">
+                        <div class="appointment__container--wrap">
+                            <label for="name" class="appointment__form--label">Name</label><br>
+                            <input type="text" name="name" id="name" placeholder="Enter your name..." class="input appointment__form--input input__name">
+                        </div>
+                        <div class="appointment__container--wrap">
+                            <label for="email" class="appointment__form--label">Email Address</label><br>
+                            <input type="email" name="email" id="email" placeholder="Your email address..." class="input appointment__form--input input__email">
+                        </div>
+                    </div>
+                    <div class="appointment__container--line2">
+                        <div class="appointment__container--wrap">
+                            <label for="services" class="appointment__form--label">Services</label><br>
+                            <select id="services" name="services" class="appointment__form--input input__services">
+                                <option value="whitening" class="options">Whitening</option>
+                                <option value="implants" class="options">Implants</option>
+                                <option value="root canal" class="options">Root Canal</option>
+                                <option value="dentures" class="options">Dentures</option>
+                            </select>
+                        </div>
+                        <div class="appointment__container--wrap">
+                            <label for="department" class="appointment__form--label">Department</label><br>
+                            <select id="department" name="department" placeholder="Select Department" class="appointment__form--input input__department">
+                                <option value="Dentist" class="options">Dentist</option>
+                                <option value="Surgery" class="options">Surgery</option>
+                                <option value="Prosthesis" class="options">Prosthesis</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="appointment__container--wrap appointment__container--text">
+                        <label for="messages">Messages</label>
+                        <textarea name="messages" id="messages" cols="30" rows="11" placeholder="Enter your messages..." class="input__messages appointment__form--label"></textarea>
+                    </div>
+                </form>
+                <div class="appointment__container--contact">
+                    <div class="contact">
+                        <img src="../Img/home/phone-icon.png" alt="Telefone" class="appointment__contact-img">
+                        <div class="appointment__contact-wrap">
+                            <p class="appointment__contact--title">Dental 24H Emergency</p>
+                            <p class="appointment__contact">03 482 394 123</p>
+                        </div>
+                    </div>
+                <input type="submit" value="Book Appointment" class="appointment__button">
+                </div>
+            </div>   
+        </section>
     </main>
 
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__colum1">
-                <a href="#"><img src="/assets/Img/logo-footer.png" alt="Logo Dentalist" class="footer__logo"></a>
+                <a href="#"><img src="../Img/logo-footer.png" alt="Logo Dentalist" class="footer__logo"></a>
                 <p class="footer__description">Dental Care Seattle is a top-rated local practice for cosmetic, preventative,
                     <br>and restorative dentistry on First Hill</p>
 
                     <p class="footer__follow">FOLLOW US ON</p>
                 <article class="footer__social-medias">
-                    <img src="/assets/Img/facebook-footer.png" alt="Facebook" class="footer___medias--icon">
-                    <img src="/assets/Img/twitter-footer.png" alt="Twitter" class="footer___medias--icon" >
-                    <img src="/assets/Img/instagram-footer.png" alt="Instagram" class="footer___medias--icon">
+                    <img src="../Img/facebook-footer.png" alt="Facebook" class="footer___medias--icon">
+                    <img src="../Img/twitter-footer.png" alt="Twitter" class="footer___medias--icon" >
+                    <img src="../Img/instagram-footer.png" alt="Instagram" class="footer___medias--icon">
                 </article>
             </div>
             <div class="footer__colum2">
                 <ul class="footer__links--list">
                     <li class="footer__list-title">QUICK LINKS</li>
                     <li class="footer__links--list-item">
-                        <a href="#" class="footer__list--link">About Us</a>
+                        <a href="../pages/about.html" class="footer__list--link">About Us</a>
                     </li>
                     <li class="footer__links--list-item">
-                        <a href="#" class="footer__list--link">Dental Services</a>
+                        <a href="../pages/services.html" class="footer__list--link">Dental Services</a>
                     </li>
                     <li class="footer__links--list-item">
                         <a href="#" class="footer__list--link">dentist</a>
@@ -133,7 +195,7 @@
                         <a href="#" class="footer__list--link">Blog</a>
                     </li>
                     <li class="footer__links--list-item">
-                        <a href="#" class="footer__list--link">FAQs</a>
+                        <a href="../pages/about.html" class="footer__list--link">FAQs</a>
                     </li>
                 </ul>
             </div>
@@ -141,21 +203,21 @@
                 <ul class="footer__contact--list">
                     <li class="footer__list-title">CONTACT & INFORMATION</li>
                     <li class="footer__contact--item">
-                        <img src="/assets/Img/phone--footer.png" alt="" class="footer__contact--img">
+                        <img src="../Img/phone--footer.png" alt="" class="footer__contact--img">
                         <article class="footer__contact--wrap">
                             <h3 class="footer__contact--subtitle">Phone Number</h3>
                             <p class="footer__contact--text">+088 123 654 987</p>
                         </article>
                     </li>
                     <li class="footer__contact--item">
-                        <img src="/assets/Img/clock--footer.png" alt="" class="footer__contact--img">
+                        <img src="../Img/clock--footer.png" alt="" class="footer__contact--img">
                         <article class="footer__contact--wrap">
                             <h3 class="footer__contact--subtitle">Open Hour</h3>
                             <p class="footer__contact--text">09:00 AM - 18:00 PM</p>
                         </article>
                     </li>
                     <li class="footer__contact--item">
-                        <img src="/assets/Img/loc--footer.png" alt="" class="footer__contact--img">
+                        <img src="../Img/loc--footer.png" alt="" class="footer__contact--img">
                         <article class="footer__contact--wrap">
                             <h3 class="footer__contact--subtitle">Clinic Address</h3>
                             <p class="footer__contact--text">35 West Dental Street California 1004</p>
