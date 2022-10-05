@@ -254,6 +254,8 @@ body {
 .input {
     width: 290px;
     height: 60px;
+    caret-color: var(--roxo);
+    color: var(--fonte-color-secundaria);
 }
 
 select {
