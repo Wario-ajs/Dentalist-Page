@@ -1,8 +1,8 @@
-.contact {
+.contact-us {
     margin: 0 2rem 12rem 2rem;
 }
 
-.contact__container {
+.contact-us__container {
     background-image: url("/assets/Img/contact/contact-retangle-bg.png");
     background-repeat: no-repeat;
     background-position: top;
@@ -15,26 +15,26 @@
     width: 100%;
 }
 
-.contact__title {
+.contact-us__title {
     font-size: 64px;
     font-weight: 700;
     margin-top: 4rem;
 }
 
-.contact__description {
+.contact-us__description {
     font-size: 16px;
     line-height: 140%;
     text-align: center;
 }
 
-.contact__forms {
+.contact-us__forms {
     background-color: var(--branco);
     border-radius: 3rem;
     padding: 3.8rem 7.5rem;
     filter: drop-shadow(0px 100px 100px rgba(23, 24, 68, 0.04));
 }
 
-.contact__forms--list {
+.contact-us__forms--list {
     display: grid;
     row-gap: 1.5rem;
     column-gap: 3rem;
@@ -42,21 +42,21 @@
     grid-template-rows: auto auto auto;
 }
 
-.contact__forms--inputs {
+.contact-us__forms--inputs {
     display: flex;
     flex-direction: column;
 }
 
-.contact__forms--inputs-textarea {
+.contact-us__forms--inputs-textarea {
     grid-column: span 2;
 }
 
-.contact__infos {
+.contact-us__infos {
     display: flex;
     align-items: center;
 }
 
-.contact__forms--submit {
+.contact-us__forms--submit {
     justify-self: center;
     align-self: center;
 }
