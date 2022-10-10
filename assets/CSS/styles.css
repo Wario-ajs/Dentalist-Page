@@ -2,6 +2,7 @@
 @import url("../CSS/styles/news.css");
 @import url("../CSS/styles/about.css");
 @import url("../CSS/styles/services.css");
+@import url("../CSS/styles/contactus.css");
 
 :root {
     --fonte-principal: 'inter';

@@ -37,9 +37,9 @@
         <section class="contact">
             <div class="contact__container">
                 <h2 class="contact__title">Contact Us</h2>
-                <p class="contact__description">Lorem ipsum is placeholder text commonly used
-                     in the graphic, print, and publishing industries for previewing layouts 
-                     and visual mockups.</p>
+                <p class="contact__description">Lorem ipsum is placeholder text commonly used in the graphic, 
+                    <br>print, and publishing industries for previewing layouts and visual 
+                    <br>mockups.</p>
                 <form class="contact__forms">
                     <ul class="contact__forms--list">
                         <li class="contact__forms--inputs">
@@ -70,10 +70,20 @@
                                 <option value="Prosthesis" class="options">Prosthesis</option>
                             </select>
                         </li>
-                        <li class="contact__forms--inputs">
+                        <li class="contact__forms--inputs contact__forms--inputs-textarea">
                             <label for="messages">Messages</label>
                             <textarea name="messages" id="messages" cols="30" rows="11" placeholder="Enter your messages..." 
                             class="input__messages appointment__form--label"></textarea>
+                        </li>
+                        <li class="contact__infos">
+                            <img src="/assets/Img/home/phone-icon.png" alt="Telefone" class="appointment__contact-img">
+                            <div class="appointment__contact-wrap">
+                                <p class="appointment__contact--title">Dental 24H Emergency</p>
+                                <p class="appointment__contact">03 482 394 123</p>
+                            </div>
+                        </li>
+                        <li class="contact__forms--submit">
+                            <input type="submit" value="Book Appointment" class="contactus__appointment--button">
                         </li>
                     </ul>
                 </form>
@@ -82,17 +92,19 @@
         <section class="clinic">
             <h2 class="section__title clinic__title">Our Clinic</h2>
             <h3 class="clinic__subtitle">Come to our clinic and get best dental services</h3>
-            <div class="clinic__card">
-                <img src="../Img/contact/contact-loc1.png" alt="A picture of the main clinic and your localization" 
-                class="clinic__card--img">
-                <h4 class="clinic___card--img">Dentalist Main Clinic</h4>
-                <p class="clinic__card--loc">35 West Dental Street California 1004</p>
-            </div>
-            <div class="clinic__card">
-                <img src="../Img/contact/contact-loc2.png" alt="A picture of a branch clinic and your localization" 
-                class="clinic__card--img">
-                <h4 class="clinic___card--img">Dentalist Branch Clinic</h4>
-                <p class="clinic__card--loc">35 West Dental Street California 1004</p>
+            <div class="clinic__wrapper">
+                <div class="clinic__card">
+                    <img src="../Img/contact/contact-loc1.png" alt="A picture of the main clinic and your localization" 
+                    class="clinic__card--img">
+                    <h4 class="clinic__card--title">Dentalist Main Clinic</h4>
+                    <p class="clinic__card--loc">35 West Dental Street California 1004</p>
+                </div>
+                <div class="clinic__card">
+                    <img src="../Img/contact/contact-loc2.png" alt="A picture of a branch clinic and your localization" 
+                    class="clinic__card--img">
+                    <h4 class="clinic__card--title">Dentalist Branch Clinic</h4>
+                    <p class="clinic__card--loc">35 West Dental Street California 1004</p>
+                </div>
             </div>
         </section>
     </main>
