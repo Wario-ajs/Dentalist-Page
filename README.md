@@ -1,5 +1,5 @@
 # Dentalist-Page
-![GitHub repo size](https://img.shields.io/github/repo-size/Wario-ajs/Dentalist-Page?style=flat-square)![GitHub repo file count](https://img.shields.io/github/directory-file-count/Wario-ajs/Dentalist-Page?style=flat-square)![Lines of code](https://img.shields.io/tokei/lines/github.com/Wario-ajs/Dentalist-Page?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/Wario-ajs/Dentalist-Page?style=flat-square)![GitHub repo file count](https://img.shields.io/github/directory-file-count/Wario-ajs/Dentalist-Page?style=flat-square)
 
 Projeto da web page Dentalist (site de um consultório odontológico), criador a partir de um design figma para a pratica de tecnologias como HTML/CSS e JavaScript.
 
@@ -24,25 +24,25 @@ Inter:
 
 ### Cores
 
-    fonte-color: `#181945`
+   fonte-color: `#181945`
     
-    fonte-color-secundaria: `#797979`
+   fonte-color-secundaria: `#797979`
     
-    branco: `#FFF`
+   branco: `#FFF`
     
-    roxo: `#583FBC`;
+   roxo: `#583FBC`;
     
-    roxo-secundario: `#DBDEFA`;
+   roxo-secundario: `#DBDEFA`;
     
-    azul-claro: `#D9EBFA`;
+   azul-claro: `#D9EBFA`;
     
-    lilas: `#F6DBFA`;
+   lilas: `#F6DBFA`;
     
-    rosa: `#FADBE2`;
+   rosa: `#FADBE2`;
     
-    footer-background: `#041434`;
+   footer-background: `#041434`;
     
-    footer-font-color:  `rgba(255, 255, 255, 0.6)`;
+   footer-font-color:  `rgba(255, 255, 255, 0.6)`;
 
 ### Layout Desktop - (min/max-Width):
 
